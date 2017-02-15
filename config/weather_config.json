@@ -1,0 +1,5 @@
+{
+  "WEATHER": {
+    "locations_source": "http://datapoint.metoffice.gov.uk/public/data/val/wxfcs/all/json/sitelist?key=f74b2d5f-4fd7-450a-b410-ed56d842a209"
+  }
+}

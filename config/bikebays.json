@@ -1,0 +1,670 @@
+{
+  "BAYS_DATA": [
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "Green",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.547651,
+            53.798056
+        ]
+    },
+    "Type " : "Toast rack car design",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "Russell Street "
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "Green",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.547271,
+            53.79909
+        ]
+    },
+    "Type " : "Toast rack car design",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "South Parade"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "Green",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.538011,
+            53.79483
+        ]
+    },
+    "Type " : "Toast rack car design",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "The Calls"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "silver",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.537067,
+            53.79367
+        ]
+    },
+    "Type " : "Cycle Racks",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "Brewery Place"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "silver",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.541981,
+            53.799035
+        ]
+    },
+    "Type " : "Cycle Racks",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "Briggate "
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "silver",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.542345,
+            53.797239
+        ]
+    },
+    "Type " : "Cycle Racks",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "Briggate "
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "silver",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.542576,
+            53.796106
+        ]
+    },
+    "Type " : "Cycle Racks",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "Briggate "
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "silver",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.542828,
+            53.802938
+        ]
+    },
+    "Type " : "Cycle Racks",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "Brunswick Terrace"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "silver",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.550113,
+            53.8036
+        ]
+    },
+    "Type " : "Cycle Racks",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "Calverley Street"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "silver",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.540993,
+            53.79702
+        ]
+    },
+    "Type " : "Cycle Racks",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "Central Road"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "silver",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.54794,
+            53.79627
+        ]
+    },
+    "Type " : "Cycle Racks",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "City Square"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "silver",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.536047,
+            53.79777
+        ]
+    },
+    "Type " : "Cycle Racks",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "Dyer Street"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "silver",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.536391,
+            53.7987
+        ]
+    },
+    "Type " : "Cycle Racks",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "Eastgate"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "silver",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.54565,
+            53.8014
+        ]
+    },
+    "Type " : "Cycle Racks",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "Great George Street"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "silver",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.551572,
+            53.80262
+        ]
+    },
+    "Type " : "Cycle Racks",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "Jubilee Wing (LGI) "
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "silver",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.543568,
+            53.802545
+        ]
+    },
+    "Type " : "Cycle Racks",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "Merrion Way"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "silver",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.54676,
+            53.795284
+        ]
+    },
+    "Type " : "Cycle Racks",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "New Station Street"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "silver",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.55121,
+            53.80046
+        ]
+    },
+    "Type " : "Cycle Racks",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "Oxford Row"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "silver",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.547176,
+            53.79775
+        ]
+    },
+    "Type " : "Cycle Racks",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "Park Row"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "silver",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.55254,
+            53.79981
+        ]
+    },
+    "Type " : "Cycle Racks",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "Park Street"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "silver",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.547694,
+            53.802583
+        ]
+    },
+    "Type " : "Cycle Racks",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "Portland Crescent"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "silver",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.5479,
+            53.80213
+        ]
+    },
+    "Type " : "Cycle Racks",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "Portland Crescent"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "silver",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.548085,
+            53.80323
+        ]
+    },
+    "Type " : "Cycle Racks",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "Portland Way"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "silver",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.548471,
+            53.802919
+        ]
+    },
+    "Type " : "Cycle Racks",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "Portland Way"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "silver",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.54878,
+            53.79515
+        ]
+    },
+    "Type " : "Cycle Racks",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "Princes Square"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "silver",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.546068,
+            53.799572
+        ]
+    },
+    "Type " : "Cycle Racks",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "The Headrow"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "silver",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.543209,
+            53.799209
+        ]
+    },
+    "Type " : "Cycle Racks",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "The Headrow"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "silver",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.543386,
+            53.800822
+        ]
+    },
+    "Type " : "Cycle Racks",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "Wade Lane"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "silver",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.534524,
+            53.79848
+        ]
+    },
+    "Type " : "Toast rack car design",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "West Yorkshire Playhouse "
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "silver",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.545089,
+            53.801473
+        ]
+    },
+    "Type " : "Cycle Racks",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "Woodhouse Lane"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "silver",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.535752,
+            53.79658
+        ]
+    },
+    "Type " : "Toast rack car design",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "York Street"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "White",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.537882,
+            53.801807
+        ]
+    },
+    "Type " : "Toast rack car design",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "North Street"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "White",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.549763,
+            53.79784
+        ]
+    },
+    "Type " : "Toast rack car design",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "Saint Pauls Street"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "White with Red Spots",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.554107,
+            53.79852
+        ]
+    },
+    "Type " : "Toast rack car design",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "Saint Pauls Street"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "Yellow",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.547337,
+            53.7984
+        ]
+    },
+    "Type " : "Toast rack car design",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "Greek Street"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "Yellow",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.553941,
+            53.79793
+        ]
+    },
+    "Type " : "Toast rack car design",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "Park Place"
+},
+{
+    "ONS Ref" : "http://statistics.data.gov.uk/id/statistical-geography/E05001420",
+    "OrganisationLabel" : "Leeds",
+    "Colour" : "Yellow",
+    "geojson_point" : {
+        "type" : "Point",
+        "coordinates" : [
+            -1.550518,
+            53.79682
+        ]
+    },
+    "Type " : "Toast rack car design",
+    "ServiceTypeURI" : "http://id.esd.org.uk/service/559",
+    "ServiceTypeLabel" : "Street Furniture",
+    "OrganisationURI" : "http://opendatacommunities.org/id/metropolitan-district-council/leeds",
+    "Ward" : "City and Hunslet",
+    "Street" : "York Place"
+}
+]
+}
