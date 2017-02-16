@@ -10,9 +10,9 @@ const config = require('nconf')
 describe('twitter', function () {
   describe('twitts loading', function () {
   const twClient = new TwitterPlugin(config.get('twitterClient'));
-  it('should respond with array of tweets', function () {
-    return loadTweets('leeds', twClient).should.eventually.be.an('array');
-  });
+    it('should respond with array of tweets', function () {
+      return loadTweets('leeds', twClient).should.eventually.be.an('array');
+    });
   });
   describe('legacy request support', function () {
     const req = {

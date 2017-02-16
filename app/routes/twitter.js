@@ -25,7 +25,7 @@ class Twitter {
 
   static fetchTweets(screenName, res) {
     return loadTweets(screenName, Twitter.setClient())
-    .then(loadedTweets => res.json(loadedTweets))
+    .then(loadedTweets => res.json({ tweets: loadedTweets }))
     .catch((err) => {
       logger.error(err);
       res.json(err);

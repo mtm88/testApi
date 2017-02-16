@@ -2,7 +2,7 @@ node_modules/
 *.log
 .env
 /config/twitter.json
-
+/config/carparks.json
 # VS Code files
 .vscode
 

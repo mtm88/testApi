@@ -13,6 +13,7 @@
     "remote-file-size": "^3.0.3",
     "request": "^2.79.0",
     "request-promise": "^4.1.1",
-    "twitter": "^1.7.0"
+    "twitter": "^1.7.0",
+    "xml2js": "^0.4.17"
   }
 }
