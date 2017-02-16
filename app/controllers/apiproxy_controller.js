@@ -1,4 +1,5 @@
-const { checkImage, returnImage } = require('./../helpers/apiproxy_helpers');
+const { checkImage, returnImage, toBuffer, toJson, checkParsing } = require('./../helpers/apiproxy_helpers');
+const rp = require('request-promise');
 
 const queryIsValid = function queryIsValid(req) {
   if (req && req.query && req.query.url) {
@@ -18,9 +19,18 @@ const fetchImgBuffer = function fetchImgBuffer(url) {
     }));
 };
 
+const processSource = function processSource(query) {
+  return new Promise((resolve, reject) => {
+    rp.get({ uri: toBuffer(query.url), json: toJson(query) })
+    .then(results => resolve(checkParsing(query, results)))
+    .catch(err => reject(err));
+  });
+};
+
 
 
 module.exports = {
   queryIsValid,
   fetchImgBuffer,
+  processSource,
 };

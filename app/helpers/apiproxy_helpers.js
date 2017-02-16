@@ -1,5 +1,7 @@
 const remoteFileSize = require('remote-file-size');
 const rp = require('request-promise');
+const { parse } = require('csv');
+
 const config = require('nconf')
   .file('config', `${__dirname}/../../config/apiproxy_config.json`);
 
@@ -26,9 +28,40 @@ const returnImage = function returnImage(uri) {
   });
 };
 
+const toBuffer = function toBuffer(url) {
+  return new Buffer(url, 'base64').toString();
+};
+
+const toJson = function toJson(query) {
+  if (query && query.toJSON === 'true') {
+    return true;
+  }
+  return false;
+};
+
+const checkParsing = function checkParsing(query, results) {
+  if (query.fromCSV === 'true') {
+    const parseOptions = {
+      delimiter: ',',
+      columns: true,
+      skip_empty_lines: true,
+    };
+    return parse(results, parseOptions, (err, parsedData) => {
+      if (err) {
+        return results;
+      }
+      return parsedData;
+    });
+  }
+  return results;
+};
+
 
 module.exports = {
   checkImage,
   verifySize,
   returnImage,
+  toBuffer,
+  toJson,
+  checkParsing,
 };

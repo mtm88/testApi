@@ -1,5 +1,5 @@
 const Router = require('express').Router();
-const { queryIsValid, fetchImgBuffer } = require('./../controllers/apiproxy_controller');
+const { queryIsValid, fetchImgBuffer, processSource } = require('./../controllers/apiproxy_controller');
 const logger = require('@mysolomon/solomon-core-logger').fetch();
 
 class ApiProxy {
@@ -23,8 +23,14 @@ class ApiProxy {
 
   static fetchContent(req, res) {
     if (queryIsValid(req)) {
-
+      return processSource(req.query)
+      .then(results => res.json(results))
+      .catch((err) => {
+        logger.error(err);
+        res.json(err);
+      });
     }
+    return res.json('No URL Provided or it\'s incorrect.');
   }
 }
 
