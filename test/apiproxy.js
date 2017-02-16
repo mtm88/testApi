@@ -3,7 +3,7 @@ const chaiAsPromised = require("chai-as-promised");
 const { expect, should } = require('chai');
 chai.use(chaiAsPromised).use(should);
 
-const { processQuery } = require('./../app/controllers/apiproxy_controller');
+const { queryIsValid } = require('./../app/controllers/apiproxy_controller');
 const { verifySize, returnImage } = require('./../app/helpers/apiproxy_helpers');
 
 describe('API proxy', function () {
@@ -11,8 +11,9 @@ describe('API proxy', function () {
       const req = {
         query: {},
       }
-    it('should reject the promise when query is incorrect', function () {
-      return processQuery().should.be.rejected;
+    it('should process the query', function () {
+      expect(queryIsValid()).to.equal(false);
+      expect(queryIsValid({ query: { url: '123' }})).to.equal(true);
     });
     describe('Image size check', function () {
       const imageError = verifySize('error', 10);
