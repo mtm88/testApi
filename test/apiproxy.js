@@ -4,7 +4,7 @@ const { expect, should } = require('chai');
 chai.use(chaiAsPromised).use(should);
 
 const { queryIsValid } = require('./../app/controllers/apiproxy_controller');
-const { verifySize, returnImage } = require('./../app/helpers/apiproxy_helpers');
+const { verifySize, returnImage, toBuffer, toJson, checkParsing } = require('./../app/helpers/apiproxy_helpers');
 
 describe('API proxy', function () {
   describe('Image proxy route', function () {
@@ -40,5 +40,28 @@ describe('API proxy', function () {
         return returnImage().should.be.rejected;
       })
     })
+  });
+
+  describe('data proxy route', function () {
+    const req = {
+      query: {
+        url: 'aHR0cDovL2RhdGFwb2ludC5tZXRvZmZpY2UuZ292LnVrL3B1YmxpYy9kYXRhL3ZhbC93eGZjcy9hbGwvanNvbi8zNTIyNDE/cmVzPWRhaWx5JmtleT1mNzRiMmQ1Zi00ZmQ3LTQ1MGEtYjQxMC1lZDU2ZDg0MmEyMDk=',
+      }
+    }
+    const parsed = 'http://datapoint.metoffice.gov.uk/public/data/val/wxfcs/all/json/352241?res=daily&key=f74b2d5f-4fd7-450a-b410-ed56d842a209'
+
+    it('should respond with decoded url', function () {
+      const address = toBuffer(req.query.url);
+      expect(address).to.equal(parsed);
+    });
+    it('should decide to parse/not to JSON', function () {
+      expect(toJson(req.query)).to.equal(false);
+      expect(toJson({ toJSON: 'true' })).to.equal(true);
+    });
+    it('should decide to parse/not to CSV', function () {
+      expect(checkParsing(req.query, null)).to.equal(null);
+      expect(checkParsing({ fromCSV: 'true' }, '123')).to.be.an('object');
+    });
+
   });
 });
