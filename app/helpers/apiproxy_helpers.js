@@ -3,7 +3,7 @@ const rp = require('request-promise');
 const { parse } = require('csv');
 
 const config = require('nconf')
-  .file('config', `${__dirname}/../../config/apiproxy_config.json`);
+  .file('apiproxy', `${__dirname}/../../config/apiproxy.json`);
 
 const verifySize = function verifySize(err, size) {
   if (err) {

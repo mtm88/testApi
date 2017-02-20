@@ -1,4 +1,12 @@
 {
+  "name": "test project",
+  "version": "0.0.1",
+  "description": "test project for stuff...",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --recursive",
+    "lint": "eslint ."
+  },
   "dependencies": {
     "@mysolomon/solomon-core-cors": "^0.0.3",
     "@mysolomon/solomon-core-logger": "^0.0.6",
