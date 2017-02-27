@@ -1,4 +1,3 @@
-const remoteFileSize = require('remote-file-size');
 const rp = require('request-promise');
 const { parse } = require('csv');
 
@@ -16,7 +15,11 @@ const verifySize = function verifySize(err, size) {
 
 const checkImage = function checkImageSize(url) {
   return new Promise((resolve) => {
-    remoteFileSize(url, (err, size) => resolve(verifySize(err, size)));
+    rp({ url, resolveWithFullResponse: true })
+      .then((data) => {
+        resolve(verifySize(null, data.headers['content-length']));
+      })
+      .catch(err => resolve(verifySize(err, null)));
   });
 };
 

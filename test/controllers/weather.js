@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-const { queryBuilder, fetchRemoteLocations, removeCurrentLocations, insertNewLocations, fetchCoordsQuery, fetchTermsQuery } = require('./../app/helpers/weather_helpers');
+const { queryBuilder, fetchRemoteLocations, removeCurrentLocations, insertNewLocations, fetchCoordsQuery, fetchTermsQuery } = require('./../../app/helpers/weather_helpers');
 
 describe('weather', () => {
   describe('query building helpers', function () {

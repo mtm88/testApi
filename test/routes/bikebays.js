@@ -1,6 +1,6 @@
 
 const { expect } = require('chai');
-const { BikeBays } = require('./../app/routes/bikebays');
+const { BikeBays } = require('./../../app/routes/bikebays');
 
 
 describe('bike bays', function () {

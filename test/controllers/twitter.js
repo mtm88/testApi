@@ -5,7 +5,7 @@ chai.use(chaiAsPromised).use(should);
 const TwitterPlugin = require('twitter');
 const config = require('nconf')
   .file('twitter', `${__dirname}/../config/twitter.json`);
-  const { isLegacyReq, loadTweets } = require('./../app/controllers/twitter_controller');
+  const { isLegacyReq, loadTweets } = require('./../../app/controllers/twitter_controller');
 
 describe('twitter', function () {
   describe('twitts loading', function () {

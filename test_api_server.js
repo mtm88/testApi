@@ -35,7 +35,7 @@ app.use((req, res, next) => {
 require('./app/router')(app);
 
 let server;
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3100;
 
 module.exports.openServer = () => {
   server = app.listen(port, () => {

@@ -23,5 +23,8 @@
     "request-promise": "^4.1.1",
     "twitter": "^1.7.0",
     "xml2js": "^0.4.17"
+  },
+  "devDependencies": {
+    "nock": "^9.0.6"
   }
 }
